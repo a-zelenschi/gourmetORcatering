@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gourmetORcatering</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <!-- Tailwind Config: Add Georgia -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            georgia: ['Georgia', 'serif'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+    <!--nav bar-->
+    <div class="w-full bg-white shadow-md  shadow-lg h-14">
+  <header class="text-gray-600 body-font ">
+    <div class="container mx-auto flex flex-wrap  flex-col md:flex-row items-center ">
+      <a class="flex title-font font-medium items-center text-gray-900  md:mb-0 ">
+        <span class="px-2 py-4 text-l font-serif">Gourmet sau Catering</span>
+      </a>
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center font-serif text-l">
+        <a class="mr-5 hover:text-gray-900">Despre</a>
+        <a class="mr-5 hover:text-gray-900">Meniu</a>
+        <a class="mr-5 hover:text-gray-900">Contact</a>
+      </nav>
+    </div>
+  </header>
+</div>
+    <!--image to top-->
+    <div class="flex items-center justify-center">
+    <img class="w-full h-3xl" src="https://www.w3schools.com/w3images/hamburger.jpg" alt="imageDescription">
+</div>
+    <!--menu-->
+    <section class="text-gray-600 body-font overflow-hidden font-serif">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="lg:w-4/5 mx-auto flex flex-wrap">
+      <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
+        <h1 class="text-gray-900 text-3xl title-font font-medium text-center">
+          Our Menu
+        </h1>
+
+        <br />
+        <h4 class="title-font text-black tracking-widest mb-3">
+          Bread Basket
+        </h4>
+
+        <p class="leading-relaxed text-sm">
+          Assortment of fresh baked fruit breads and muffins 5.50
+        </p>
+        <br /><br />
+
+        <h4 class="title-font text-black tracking-widest mb-3">
+          Honey Almond Granola with Fruits
+        </h4>
+
+        <p class="leading-relaxed text-sm">
+          Natural cereal of honey toasted oats, raisins, almonds and dates 7.00
+        </p>
+        <br /><br />
+
+        <h4 class="title-font text-black tracking-widest mb-3">
+          Belgian Waffle
+        </h4>
+
+        <p class="leading-relaxed text-sm">
+          Vanilla flavored batter with malted flour 7.50
+        </p>
+        <br /><br />
+
+        <h4 class="title-font text-black tracking-widest mb-3">
+          Scrambled eggs
+        </h4>
+
+        <p class="leading-relaxed text-sm">
+          Scrambled eggs, roasted red pepper and garlic, with green onions 7.50
+        </p>
+<br /><br />
+        <h4 class="title-font text-black tracking-widest mb-3">
+          Blueberry Pancakes
+        </h4>
+
+        <p class="leading-relaxed text-sm">
+          With syrup, butter and lots of berries 8.50
+        </p>
+      </div>
+      <img
+        alt="ecommerce"
+        class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
+        src="https://www.w3schools.com/w3images/tablesetting.jpg"
+      />
+    </div>
+  </div>
+</section>
+    <!--content-->
+    <section
+  class="text-gray-600 body-font relative flex justify-center font-serif"
+>
+  <div class="container px-5 py-24 w-6xl">
+    <div class="flex flex-col text-start w-full mb-12">
+      <h1
+        class="sm:text-4xl text-3xl font-medium title-font mb-4 text-gray-900"
+      >
+        Contact
+      </h1>
+      <br />
+      <p class="text-black text-sm">
+        We offer full-service catering for any event, large or small. We
+        understand your needs and we will cater the food to satisfy the biggerst
+        criteria of them all, both look and taste. Do not hesitate to contact
+        us.
+      </p>
+      <br>
+      <p class="text-black text-blue-900">
+        Catering Service, 42nd Living St, 43043 New York, NY
+      </p>
+      <br>
+      <p class="text-black text-sm">
+        You can also contact us by phone 00553123-2323 or email
+        catering@catering.com, or you can send us a message here:
+      </p>
+    </div>
+    <div class=" mx-auto">
+      <div class="flex flex-wrap -m-2">
+        <div class="p-2 w-full">
+          <div class="relative">
+          
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Name"
+              class="w-full    border-b-1  border-gray-300 focus:border focus:border-black text-base outline-none text-gray-700 px-2 py-4 leading-8 transition-colors duration-200 ease-in-out"
+            />
+          </div>
+        </div>
+        <div class="p-2 w-full">
+          <div class="relative">
+            <input
+              type="number"
+              id="number"
+              name="number"
+              placeholder="How many people?"
+              class="w-full border-b-1  border-gray-300 focus:border focus:border-black    text-base outline-none text-gray-700 px-2 py-4  leading-8 transition-colors duration-200 ease-in-out"
+            />
+          </div>
+        </div>
+        <div class="p-2 w-full">
+          <div class="relative">
+            <input
+              type="datetime-local"
+              id="number"
+              name="number"
+              placeholder="How many people?"
+              class="w-full border-b-1  border-gray-300 focus:border focus:border-black    text-base outline-none text-gray-700 px-2 py-4  leading-8 transition-colors duration-200 ease-in-out"
+            />
+          </div>
+        </div>
+       <div class="p-2 w-full">
+          <div class="relative">
+            <input
+              type="message"
+              id="message"
+              name="message"
+              placeholder="Message \ Special requirements"
+              class="w-full border-b-1  border-gray-300 focus:border focus:border-black    text-base outline-none text-gray-700 px-2 py-4  leading-8 transition-colors duration-200 ease-in-out"
+            />
+          </div>
+        </div>
+        <div class="p-2 w-full">
+          <button
+            class=" text-black bg-gray-100 border-0 py-2 px-8 focus:outline-none hover:bg-gray-200  "
+          >
+           SEND MESSAGE
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <!--footer-->
+    <footer class="text-gray-600 body-font bg-gray-300">
+  <div class="container px-5 py-8 mx-auto flex items-center justify-center   ">
+   
+    <p class="text-sm text-black  ">Powered by w3.css
+      <a href="https://www.w3schools.com/w3css/tryw3css_templates_gourmet_catering.htm" class="text-black ml-1" rel="noopener noreferrer" target="_blank">@gourmet_catering</a>
+    </p>
+    
+  </div>
+</footer>
+
+</body>
+</html>
